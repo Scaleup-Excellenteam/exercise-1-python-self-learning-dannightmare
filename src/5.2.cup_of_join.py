@@ -15,6 +15,3 @@ def cup_of_join(*args, **kwargs):
 
     # my_list.pop(-1)
     return my_list
-
-
-print(cup_of_join([1, 2], [1], sep='%'))

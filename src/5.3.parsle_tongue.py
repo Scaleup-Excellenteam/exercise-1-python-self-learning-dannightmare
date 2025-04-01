@@ -21,6 +21,3 @@ def _parsle_tongue():
 
 def parsle_tongue():
     return list(_parsle_tongue())
-
-
-print(parsle_tongue())
