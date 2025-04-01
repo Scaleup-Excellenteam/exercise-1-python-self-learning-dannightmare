@@ -1,4 +1,5 @@
 def _parsle_tongue():
+    """"""
     import re
     pattern = re.compile(b'([a-z]{5,})!')
     try:
@@ -20,4 +21,5 @@ def _parsle_tongue():
 
 
 def parsle_tongue():
+    """"""
     return list(_parsle_tongue())

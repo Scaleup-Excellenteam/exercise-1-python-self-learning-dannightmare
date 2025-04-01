@@ -1,4 +1,5 @@
 def long_cat_is_long(text):
+    """"""
     # cleanup
     clean_text = ''.join([c if c.isalpha() else ' ' for c in text])
     words = clean_text.split(' ')

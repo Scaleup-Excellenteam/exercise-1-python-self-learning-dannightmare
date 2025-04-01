@@ -1,4 +1,5 @@
 def cup_of_join(*args, **kwargs):
+    """"""
     if args is None:
         return None
 

@@ -1,4 +1,5 @@
 def generator_interleave(*iter):
+    """"""
     if len(iter) <= 0:
         return
 
@@ -10,4 +11,5 @@ def generator_interleave(*iter):
 
 
 def interleave(*iter):
+    """"""
     return list(generator_interleave(*iter))

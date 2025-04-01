@@ -1,4 +1,5 @@
 def _remember_remember(img_path):
+    """"""
     from PIL import Image
 
     img = Image.open(img_path)
@@ -10,4 +11,5 @@ def _remember_remember(img_path):
 
 
 def remember_remember(img_path):
+    """"""
     return ''.join(list(_remember_remember(img_path)))

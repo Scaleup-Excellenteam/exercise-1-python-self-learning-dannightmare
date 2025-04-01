@@ -3,6 +3,7 @@ from random import randint
 
 
 def no_vinnigrete(date1, date2):
+    """"""
     _date1 = datetime.fromisoformat(date1)
     _date2 = datetime.fromisoformat(date2)
     diff = _date2 - _date1

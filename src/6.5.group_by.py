@@ -1,4 +1,5 @@
 def group_by(func, array):
+    """"""
     ans = dict()
     for item in array:
         val = func(item)
