@@ -1,9 +1,9 @@
 """Solution 6.4"""
+from PIL import Image
 
 
 def _remember_remember(img_path):
     """Internal module function"""
-    from PIL import Image
 
     img = Image.open(img_path)
     for i in range(img.size[0]):

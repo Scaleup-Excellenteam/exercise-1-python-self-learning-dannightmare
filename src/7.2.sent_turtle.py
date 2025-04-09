@@ -1,3 +1,6 @@
+"""Solution 7.2"""
+
+
 class PostOffice:
     """A Post Office class. Allows users to message each other.
 
@@ -60,7 +63,7 @@ class PostOffice:
         elif n <= 0:
             return None
         else:
-            for i in range(len(box)):
+            for i, _ in enumerate(box):
                 if box[i]['unread'] is True:
                     messages.append(box[i])
                     box[i]['unread'] = False

@@ -1,13 +1,12 @@
 """Solution 5.3"""
+import re
 
 
 def _parsle_tongue():
     """private module function"""
-    import re
     pattern = re.compile(b'([a-z]{5,})!')
     try:
         with open("./resources/logo.jpg", 'rb') as imgfile:
-            # TODO: ensure no duplicates
             buffer = imgfile.read(2048)
             while buffer:
                 for match in re.finditer(pattern, buffer):

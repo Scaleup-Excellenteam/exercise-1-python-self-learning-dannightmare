@@ -3,7 +3,7 @@
 
 def group_by(func, array):
     """group by"""
-    ans = dict()
+    ans = {}
     for item in array:
         val = func(item)
         if val not in ans:

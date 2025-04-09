@@ -1,18 +1,18 @@
 """Solution 5.4"""
 
 
-def generator_interleave(*iter):
+def generator_interleave(*iters):
     """internal module function"""
-    if len(iter) <= 0:
+    if len(iters) <= 0:
         return
 
-    max_len = max(map(len, iter))
+    max_len = max(map(len, iters))
     for i in range(max_len):
-        for j in iter:
+        for j in iters:
             if i < len(j):
                 yield j[i]
 
 
-def interleave(*iter):
+def interleave(*iters):
     """Interleave"""
-    return list(generator_interleave(*iter))
+    return list(generator_interleave(*iters))
