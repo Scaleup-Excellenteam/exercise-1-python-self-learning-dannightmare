@@ -1,5 +1,8 @@
+"""Solution 5.4"""
+
+
 def generator_interleave(*iter):
-    """"""
+    """internal module function"""
     if len(iter) <= 0:
         return
 
@@ -11,5 +14,5 @@ def generator_interleave(*iter):
 
 
 def interleave(*iter):
-    """"""
+    """Interleave"""
     return list(generator_interleave(*iter))

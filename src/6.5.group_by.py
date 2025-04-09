@@ -1,5 +1,8 @@
+"""Solution 6.5"""
+
+
 def group_by(func, array):
-    """"""
+    """group by"""
     ans = dict()
     for item in array:
         val = func(item)

@@ -1,5 +1,8 @@
+"""Solution 5.3"""
+
+
 def _parsle_tongue():
-    """"""
+    """private module function"""
     import re
     pattern = re.compile(b'([a-z]{5,})!')
     try:
@@ -21,5 +24,5 @@ def _parsle_tongue():
 
 
 def parsle_tongue():
-    """"""
+    """Parsle tongue"""
     return list(_parsle_tongue())

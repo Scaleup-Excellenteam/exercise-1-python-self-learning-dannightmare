@@ -1,5 +1,8 @@
+"""Solution 5.2"""
+
+
 def cup_of_join(*args, **kwargs):
-    """"""
+    """Cup of join"""
     if args is None:
         return None
 

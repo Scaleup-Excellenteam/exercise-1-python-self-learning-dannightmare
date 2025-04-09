@@ -1,5 +1,8 @@
+"""Solution 6.4"""
+
+
 def _remember_remember(img_path):
-    """"""
+    """Internal module function"""
     from PIL import Image
 
     img = Image.open(img_path)
@@ -11,5 +14,5 @@ def _remember_remember(img_path):
 
 
 def remember_remember(img_path):
-    """"""
+    """Remember Remember"""
     return ''.join(list(_remember_remember(img_path)))
